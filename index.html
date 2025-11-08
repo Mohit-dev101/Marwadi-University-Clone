@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=?.,meta, initial-scale=1.0">
+    <title>Document</title>
+ <!-- <link rel="stylesheet" href="css copy/bootstrap.min.css">
+ <link rel="stylesheet" href="js copy/bootstrap.min.js"> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="Css/style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+    
+    
+    <header class=" navbar navbar-expand-md navbar-expand-sm navbar-expand-lg bg-dark" id="firsthead">
+      <button type="button" class="navbar-toggler">
+        <span class="navbar-toggler-icon" data-bs-toggle="collapse" data-bs-target="#menu"></span>
+    </button>
+
+    <nav class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto me-3">
+         <li class="nav-item">  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#applyModal">Apply Now</button></li> 
+            <li  class="nav-item"><a href="" class="nav-link text-center   text-primary ">Login</a></li>
+             <li nav class="nav-item"><a href="" class="nav-link text-center  text-primary ">Outcome Base Education</a></li>
+              <li na class="nav-item"><a href="" class="nav-link text-center  text-primary ">Parent</a></li>
+               <li n class="nav-item"><a href="" class="nav-link text-center  text-primary  ">Alumani</a></li>
+              
+                 
+        </ul>
+    </nav>
+        </header> 
+
+
+
+        
+
+
+<!-- Modal -->
+<div class="modal fade" id="applyModal" tabindex="-1" aria-labelledby="applyModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      
+      <div class="modal-header bg-info">
+        <h5 class="modal-title " id="applyModalLabel"> <i class="bi bi-building"></i>University Application Form</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      
+      <div class="modal-body">
+        <form>
+          <!-- Full Name -->
+          <div class="mb-3 input-group">
+            <span class="input-group-text"><i class="bi bi-person-fill"></i></span>
+            <input type="text" class="form-control" placeholder="Full Name" required>
+          </div>
+
+          <!-- Email -->
+          <div class="mb-3 input-group">
+            <span class="input-group-text"><i class="bi bi-envelope-fill"></i></span>
+            <input type="email" class="form-control" placeholder="Email" required>
+          </div>
+
+          <!-- Phone -->
+          <div class="mb-3 input-group">
+            <span class="input-group-text"><i class="bi bi-telephone-fill"></i></span>
+            <input type="tel" class="form-control" placeholder="Phone Number" required>
+          </div>
+
+          <!-- Course Selection -->
+          <div class="mb-3 input-group">
+            <span class="input-group-text"><i class="bi bi-book-fill"></i></span>
+            <select class="form-select" required>
+              <option selected disabled>Select Course</option>
+              <option value="btech">B.Tech</option>
+              <option value="mca">MCA</option>
+              <option value="mba">MBA</option>
+              <option value="mca">MCA</option>
+              <option value="Mtech">M.Tech</option>
+              <option value="phd">Phd.</option>
+              <option value="bca">BCA</option>
+
+            </select>
+          </div>
+
+          <!-- Submit Button -->
+          <div class="d-grid">
+            <button type="submit" class="btn btn-success">Apply</button>
+          </div>
+        </form>
+      </div>
+      
+    </div>
+  </div>
+</div>
+ 
+        
+  <header class=" navbar navbar-expand-md navbar-expand-sm navbar-expand-lg bg-dark" id="head2">
+            
+    <div class="navbar-brand ms-5">
+        <a href="" class="text- text-decoration-none " id="a"><img src="image/logo.png" alt="" id="logo"></a>
+    </div>
+
+    <button type="button" class="navbar-toggler">
+        <span class="navbar-toggler-icon" data-bs-toggle="collapse" data-bs-target="#menu2"></span>
+    </button>
+
+    <nav class="collapse navbar-collapse" id="menu2">
+        <ul class="navbar-nav ms-auto me-3">
+          <select name="" id="" class="text-primary me-2 bg-dark">
+            <option value=""><li  class="nav-item"><a href="" class="nav-link text-center   text-primary ">Home </a></li></option>
+          </select>
+
+          <select name="" id="" class="text-primary me-2 bg-dark">
+            <option value="">
+             <li nav class="nav-item"><a href="" class="nav-link text-center  text-primary ">About </a></li>
+             </option>
+          </select>
+
+
+
+          <select name="" id="" class="text-primary me-2 bg-dark">
+            <option value="">
+              <li na class="nav-item"><a href="" class="nav-link text-center  text-primary ">Vision</a></li>
+            </option>
+          </select>
+
+
+          <select name="" id="" class="text-primary me-2 bg-dark">
+            <option value="">
+               <li n class="nav-item"><a href="" class="nav-link text-center  text-primary  ">Mission</a></li>
+               </option>
+          </select>
+
+           <select name="" id="" class="text-primary me-2 bg-dark">
+            <option value="">
+               <li n class="nav-item"><a href="" class="nav-link text-center  text-primary  ">Course</a></li>
+               </option>
+          </select>
+
+          <select name="" id="" class="text-primary me-2 bg-dark">
+            <option value="">
+              <li  class="nav-item"><a href="" class="nav-link text-center text-primary  ">Contact </a></li>
+             </option>
+          </select>
+        </ul>
+    </nav>
+        </header> 
+
+        <div  class="row bg-info" id="m1"> 
+            
+        <div  class="col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3" id="b1">
+            <h4 class="text-info mt-5 ms-3 text-dark">Shaping leaders of Tomorrow</h4>
+            <img src="Image/ar.png" alt="" class="ms-4">
+            <h4 class="ms-3" >Welcome to Marwadi University where we make students' holistic development our focus.</h4>
+        </div>
+
+
+     <div class="col-sm-9 col-md-9 col-lg-9 col-xl-9 col-xxl-9 "  id="b2">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active mt-5">
+      <img src="image/1.png" class="d-block  w-50 ms-auto" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="image/1.png" class="d-block   w-50 ms-auto" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="image/1.png" class="d-block w  w-50 ms-auto" alt="...">
+    </div>
+  </div>
+   
+</div>
+        </div>
+
+        </div>
+
+
+<div class="col-sm col-md col-lg col-xl col-xxl content mt-5">
+  <img src="image/nirf.png" alt="">
+  
+</div>
+    
+<div class="">
+  <h1 class="text-center  mt-5">Found all in one</h1>
+  <div class="row" id="courses">
+    <a href="" class="text-decoration-none  col-sm col-md col-xl col-xxl ">UNDERGRADUATE PROGRAME</a>
+    <a href="" class="text-decoration-none  col-sm col-md col-xl col-xxl ">POSTGRADUATE PROGRAM</a>
+    <a href="" class="text-decoration-none  col-sm col-md col-xl col-xxl ">DIPLOMA COURSES</a>
+    <a href="" class="text-decoration-none  col-sm col-md col-xl col-xxl ">RESERCE & INOVATION</a>
+    <a href="" class="text-decoration-none  col-sm col-md col-xl col-xxl ">ONLINE COURLSE</a>
+  </div>
+</div>
+
+
+ <div class="row mt-5" id="con3">
+  <!-- Left Column -->
+  <div class="col-12 col-md-3 mb-3" id="c1">
+    <img src="image/room.png" alt="" class="img-fluid" id="rpng" >
+  </div>
+
+  <!-- Right Column -->
+  <div class="col-12 col-md-9" id="c2">
+    <div class="row justify-content-center">
+      
+      <div class="col-6 col-md-4 col-lg-4 text-center mt-3 border border-1 border-success rounded-3 hover-scale">
+        <img src="image/scien.png" alt="" class="img-fluid"><br>
+        Engineering & Technology
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-4 text-center mt-3 border border-1 border-success rounded-3 hover-scale">
+        <img src="image/scien.png" alt="" class="img-fluid"><br>
+        Pharmace
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-4 text-center mt-3 border border-1 border-success rounded-3 hover-scale">
+        <img src="image/scien.png" alt="" class="img-fluid"><br>
+        Law
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-4 text-center mt-3 border border-1 border-success rounded-3 hover-scale">
+        <img src="image/scien.png" alt="" class="img-fluid"><br>
+        Management
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-4 text-center mt-3 border border-1 border-success rounded-3 hover-scale">
+        <img src="image/scien.png" alt="" class="img-fluid"><br>
+        Arts
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-4 text-center mt-3 border border-1 border-success rounded-3 hover-scale">
+        <img src="image/scien.png" alt="" class="img-fluid"><br>
+        Science
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-4 text-center mt-3 border border-1 border-success rounded-3 hover-scale">
+        <img src="image/scien.png" alt="" class="img-fluid"><br>
+        Computer Application
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-4 text-center mt-3 border border-1 border-success rounded-3 hover-scale">
+        <img src="image/scien.png" alt="" class="img-fluid"><br>
+        Phythorapy
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-4 text-center mt-3 border border-1 border-success rounded-3 hover-scale">
+        <img src="image/scien.png" alt="" class="img-fluid"><br>
+        Nursing
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<h1 class="text-dark text-center mt-4">Why Us</h1>
+
+<div class="d-flex flex-wrap mt-4">
+ 
+    <div class="col-12 col-md-2 ms-auto box-hover ">
+      <div class="card text-center shadow-sm border-1">
+        <div class="card-body">
+          <img src="image/1.svg" alt="icon" class="img-fluid mb-1" style="width:50px; height:50px;">
+          <p class="fw-bold ">A+</p>
+          <p>NAAC Accredited</p>
+        </div>
+      </div>
+    </div>
+ 
+
+ 
+    <div class="col-12 col-md-2 ms-auto box-hover">
+      <div class="card text-center shadow-sm border-1">
+        <div class="card-body">
+          <img src="image/cardicon2.svg" alt="icon" class="img-fluid mb-1" style="width:50px; height:50px;">
+          <p class="fw-bold ">Tier-1</p>
+          <p>NBA Accreditation</p>
+        </div>
+      </div>
+    </div>
+ 
+
+ 
+    <div class="col-12 col-md-2 ms-auto box-hover">
+      <div class="card text-center shadow-sm border-1">
+        <div class="card-body">
+          <img src="image/cardicon3.svg" alt="icon" class="img-fluid mb-1" style="width:50px; height:50px;">
+          <p class="fw-bold ">110-125</p>
+          <p>All India Top <br> Pharmacy Colleges</p>
+        </div>
+      </div>
+    </div>
+ 
+
+ 
+    <div class="col-12 col-md-2 ms-auto box-hover box-hover">
+      <div class="card text-center shadow-sm border-1">
+        <div class="card-body">
+          <img src="image/cardicon4.svg" alt="icon" class="img-fluid mb-1" style="width:50px; height:50px;">
+          <p class="fw-bold ">200-300</p>
+          <p>All India Top <br> Engineering Colleges</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ 
+
+<div class="container my-4">
+  <div class="row g-3">
+
+    <div class="col-12 col-lg-4">
+      <div class="card text-white h-100">
+        <img src="image/mu-fest.jpg" class="card-img" alt="Festivals">
+        <div class="card-img-overlay">
+          <h5 class="card-title">Festivals</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-lg-8">
+      <div class="row g-3">
+
+        <div class="col-6 col-md-3">
+          <div class="card text-white small-card">
+            <img src="image/campus-beat.png" class="card-img" alt="Campus Beats">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Campus Beats</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="card text-white small-card">
+            <img src="image/sports.png" class="card-img" alt="Sports">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Sports</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="card text-white small-card">
+            <img src="image/cultural-festival.jpg" class="card-img" alt="Cultural Festivals">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Cultural Festivals</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="card text-white small-card">
+            <img src="image/mu-fest.jpg" class="card-img" alt="MU fest">
+            <div class="card-img-overlay">
+              <h5 class="card-title">MU fest</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 mt-3">
+          <div class="card text-white small-card">
+            <img src="image/student-club.jpg" class="card-img" alt="Student Clubs">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Student Clubs</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 mt-3">
+          <div class="card text-white small-card">
+            <img src="image/cafeteria.png" class="card-img" alt="Cafeteria">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Cafeteria</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 mt-3">
+            <div class="card text-white small-card">
+              <img src="image/advance-lab.jpg" class="card-img" alt="Advanced labs">
+              <div class="card-img-overlay">
+                <h5 class="card-title">Advanced labs</h5>
+              </div>
+            </div>
+          </div>
+          
+
+      </div>
+    </div>
+  </div>
+</div>
+
+ </body>
+</html>
+
+<div class="container my-4">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+
+    <!-- Card 1 -->
+    <div class="col">
+      <div class="card h-100 shadow-sm">
+       
+        <div class="card-body">
+           <img src="images/card4.png" class="card-img-top" alt="Event Image">
+           <h6 class="card-title fw-bold text-success">News from the world of Education</h6>
+          <p class="text">THE HINDU</p>
+          <p class="text">September 26, 2025</p>
+          <i class="bi bi-star-fill text-success"></i>
+           <i class="bi bi-star-fill text-success"></i>
+            <i class="bi bi-star-fill text-success"></i>
+             <i class="bi bi-star-fill text-success"></i>
+              <i class="bi bi-star-fill text-success "></i> <br>
+          <a href="#" class="fw-bold text-decoration-none text-warning">Read More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col">
+      <div class="card h-80 shadow-sm">
+       
+        <div class="card-body">
+           <img src="images/card5.png" class="card-img-top" alt="MBA Colleges">
+          <h6 class="card-title fw-bold text-success">Stanford Recognizes 17 Marwadi University Scholars in Global Top 2% Researchers</h6>
+          <p class="text">SME STREET</p>
+          <p class="text">September 25, 2025</p>
+           <i class="bi bi-star-fill text-success"></i>
+           <i class="bi bi-star-fill text-success"></i>
+            <i class="bi bi-star-fill text-success"></i>
+            <i class="bi bi-star-fill text-success "></i>
+            <i class="bi bi-star "></i>
+           <br>
+          <a href="#" class="fw-bold text-decoration-none text-warning">Read More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col">
+      <div class="card h-100 shadow-sm">
+      
+        <div class="card-body">
+            <img src="images/card6.png" class="card-img-top" alt="Engineer's Day">
+          <h6 class="card-title fw-bold text-success">Our goal is to make high-protein, algae-based nutrition mainstream in Indian households</h6>
+          <p class="text mb-1">NFFOODS Spectrum</p>
+          <p class="text">September 22, 2025</p>
+            <i class="bi bi-star-fill text-success"></i> 
+              <i class="bi bi-star-fill text-success"></i> 
+                <i class="bi bi-star-fill text-success"></i> 
+                  <i class="bi bi-star-fill text-success"></i>
+                   <i class="bi bi-star-half text-success"></i>  <br>
+          <a href="#" class="fw-bold text-decoration-none text-warning">Read More</a>
+        </div>
+      </div>
+    </div>
+
+
+
+    
+
+  </div>
+</div>
+
+
+
+<div class="container my-4">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+
+    <!-- Card 1 -->
+    <div class="col">
+      <div class="card h-100 shadow-sm">
+        <img src="images/card1.png" class="card-img-top" alt="Event Image">
+        <div class="card-body">
+          <h6 class="card-title fw-bold text-success">Students from 25 institutes pitch startup ideas at AAU event</h6>
+          <p class="text">The Times of India</p>
+          <p class="text">September 19, 2025</p>
+          <i class="bi bi-star-fill text-primary"></i>
+           <i class="bi bi-star-fill text-primary"></i>
+            <i class="bi bi-star-fill text-primary"></i>
+             <i class="bi bi-star-fill text-primary"></i>
+              <i class="bi bi-star "></i> <br>
+          <a href="#" class="fw-bold text-decoration-none text-warning">Read More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col">
+      <div class="card h-80 shadow-sm">
+        <img src="images/card2.png" class="card-img-top" alt="MBA Colleges">
+        <div class="card-body">
+          <h6 class="card-title  text-success">Top MBA Colleges in Gujarat (2025): Rankings, Placements, Specializations, and Why an MBA Still Matters</h6>
+          <p class="text ">September 18, 2025</p>
+           <i class="bi bi-star-fill text-primary"></i>
+           <i class="bi bi-star-fill text-primary"></i>
+            <i class="bi bi-star-fill text-primary"></i>
+            <i class="bi bi-star "></i>
+            <i class="bi bi-star "></i>
+           <br>
+          <a href="#" class="fw-bold text-decoration-none text-warning">Read More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col">
+      <div class="card h-100 shadow-sm">
+        <img src="images/card3.png" class="card-img-top" alt="Engineer's Day">
+        <div class="card-body">
+          <h6 class="card-title text-success">Engineer’s Day 2025: 5 ways engineering curriculums can create next generation of entrepreneurs</h6>
+          <p class="text ">The Times of India</p>
+          <p class="text">September 17, 2025</p>
+            <i class="bi bi-star-fill text-primary"></i> 
+              <i class="bi bi-star-fill text-primary"></i> 
+                <i class="bi bi-star-fill text-primary"></i> 
+                  <i class="bi bi-star-fill text-primary"></i>
+                   <i class="bi bi-star-half text-primary"></i>  <br>
+          <a href="#" class="fw-bold text-decoration-none text-warning">Read More</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+   
+    <h1 class="text-center text-success">F&Q</h1>
+
+    <div class="container">
+      <div class="accordion" id="accordionExample">
+
+  <div class="accordion-item  mb-3 ">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button bg-info" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+    Is there any Loan Facility Available ?
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+          There are various kinds of scholarships and financial aid available at MU. Marwadi University has made special arrangements with State Bank of India, Bank of India, Central Bank of India, HDFC Bank and other private Banks for speedy sanctioning and dispersal of Educational and Student Loan to students taking admission.
+       <br>
+      <a href="" class="text-decoration-none text-warning">https://www.marwadiuniversity.ac.in/student-scholarship-facility/</a>
+    </div>
+    </div>
+  </div>
+
+  <div class="accordion-item  mb-3 ">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed bg-info" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+       Is there any Scholarship Available ?
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body"> 
+        A student can avail various scholarships and financial aids at MU. There are International Scholarships, GATE Scholarship, Vidhyalaxmi Yojana, GPAT Scholarship, and alike. You can contact the University and get all the guidance related to Student Loan. <br>
+  <a href="" class="text-decoration-none text-warning">https://www.marwadiuniversity.ac.in/student-scholarship-facility/ </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item  mb-3 ">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed bg-info" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        How is the Placement at Marwadi University ?
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Marwadi University provides 100% Placement Assistance and Opportunities. So much so that in the previous academic year, we hosted more than 480 companies for placement. If the students are dedicated enough with regular work and follow-ups, they are sure to receive placement in well-known companies with a worthy package. You can contact the  <a href="">Placement and Corporate Relations Department  </a> go through Placement News to know more about it.
+    </div>
+    </div>
+  </div>
+
+
+
+    <!--jkljlkjkljkl-->
+
+   <div class="accordion-item  mb-3 ">
+    <h2 class="accordion-header" id="headingFour">
+      <button class="accordion-button collapsed bg-info"   type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+        How to Apply for Admission at Marwadi University? What form to fill ?
+      </button>
+    </h2>
+    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        You can apply online by filling the Application form to start your admission process. If you do not want to fill the application online, you can visit the University for walk-in admissions anytime.
+     </div>
+    </div>
+  </div>
+
+
+
+   <div class="accordion-item  mb-3 ">
+    <h2 class="accordion-header" id="headinSix">
+      <button class="accordion-button collapsed bg-info"   type="button" data-bs-toggle="collapse" data-bs-target="#collapsSix" aria-expanded="false" aria-controls="collapsSix">
+ Is Marwadi University recognised by the Government ?
+      </button>
+    </h2>
+    <div id="collapsSix" class="accordion-collapse collapse" aria-labelledby="headinSix" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+Marwadi University is UGC (University Grants Commission) approved/listed. You can find the name of Marwadi University under the list of UGC approved Universities. MU is also the only institute that is given the NAAC A+ grade in Gujarat.
+    </div>
+    </div>
+  </div>
+
+   <div class="accordion-item  mb-3 ">
+    <h2 class="accordion-header" id="headingSix">
+      <button class="accordion-button collapsed bg-info"   type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+What all Documents are necessary to bring in while joining the University ?
+      </button>
+    </h2>
+    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+While you come for admissions, you need to carry your HSC and SSC results, school leaving certificate, JEE score card & registration slip (ACPC). We advise you to keep originals along with photocopies of the same. If you are taking admissions for a Master’s degree, you need to also keep the Bachelor’s Degree Certificate and Marksheet, and any other examination’s scorecard if applicable along with the previously mentioned documents. (GATE score, CMAT, CAT score, GPAT score)
+    </div>
+    </div>
+  </div>
+
+</div>
+    </div>
+
+
+
+    <div class="row mt-5 ">
+      <div class="col-lg-2 col-md-6 col-12  ms-2">
+        <h6>Quick Links</h6>  <br>
+        <a href="" class="text-decoration-none">FaQ</a> <br>
+        <a href="" class="text-decoration-none mt-5">Careers</a> <br>
+        <a href="" class="text-decoration-none mt-5">UGC Proform</a> <br>
+        <a href="" class="text-decoration-none mt-5">Disclosure</a> <br>
+        <a href="" class="text-decoration-none mt-5">NIRF</a> <br>
+        <a href="" class="text-decoration-none mt-5">Academic Calender</a> <br>
+        <a href="" class="text-decoration-none mt-5">Code of Conduct</a> <br>
+        <a href="" class="text-decoration-none mt-5">Naac</a> <br>
+        <a href="" class="text-decoration-none mt-5">Tender</a> <br>
+        <a href="" class="text-decoration-none mt-5">Right to Information</a> <br>
+        <a href="" class="text-decoration-none mt-5">Annual Report</a> <br>
+        <a href="" class="text-decoration-none mt-5"></a>
+      </div>
+      <div class="col-lg-2  col-md-4 col-12   ms-2">
+        <h6>Centres</h6>
+        <a href=""></a>
+        <a href="" class="text-decoration-none mt-5">MUIIR</a>   <br>            
+        <a href="" class="text-decoration-none mt-5">CEFB</a> <br>
+        <a href="" class="text-decoration-none mt-5">Women Cell</a> <br>
+        <a href="" class="text-decoration-none mt-5">Placement Cells</a> <br>
+        <a href="" class="text-decoration-none mt-5">Anti Ragging Cells</a> <br>
+        <a href="" class="text-decoration-none mt-5">Equal Opporunity Cell</a> <br>
+        <a href="" class="text-decoration-none mt-5">Soci-Economically </a> <br>
+        <a href="" class="text-decoration-none mt-5">Disadvantage Group Cell</a> <br>
+        <a href="" class="text-decoration-none mt-5">(SEDG)</a> <br>
+      </div>
+      <div class="col-lg-2 col-md-3 col-12  ms-2">
+        <h6>Downloads</h6>
+        <a href=""></a>
+        <a href="" class="text-decoration-none mt-5">Brochure</a> <br>
+        <a href="" class="text-decoration-none mt-5">MU Statutes & Ordinances</a> <br>
+        <a href="" class="text-decoration-none mt-5">Universitity Strategic Plan</a> <br>
+        <a href="" class="text-decoration-none mt-5">Inclusign as per section 2f or the UGC Act 1956</a> <br>
+        <a href="" class="text-decoration-none mt-5">Act No 9 of 2016</a> <br>
+        <a href="" class="text-decoration-none mt-5"> Whistleblower Policy</a> <br>
+        <a href="" class="text-decoration-none mt-5">UGC Proform</a> <br>
+        <a href="" class="text-decoration-none mt-5">SIRO Recognition</a> <br>
+      </div>
+      <div class="col-lg-2   col-md-3 col-12  ms-2">
+        <h6>Students Corner</h6>
+        <a href=""></a>
+        <a href="" class="text-decoration-none mt-5 text-center">Login</a> <br>
+        <a href="" class="text-decoration-none mt-5 text-center">LMS</a> <br>
+        <a href="" class="text-decoration-none mt-5 text-center">Library</a> <br>
+        <a href="" class="text-decoration-none mt-5 text-center">Alumni</a> <br>
+        <a href="" class="text-decoration-none mt-5 text-center">Convocation</a> <br>
+        <a href="" class="text-decoration-none mt-5 text-center">Internal Complaints Committee</a> <br>
+        <a href="" class="text-decoration-none mt-5 text-center">National Academy Dipository</a> <br>
+        <a href="" class="text-decoration-none mt-5 text-center">DigiLocker NAD</a> <br>
+        <a href="" class="text-decoration-none mt-5 text-center">NAD-ABC</a> <br>
+      </div>
+
+      <div class="col-lg-2 col-md-3 col-12 ms-2">
+        <h6>Follow Us</h6> 
+      <a href=""> <i class="bi bi-facebook text-primary"></i></a>
+       <a href=""><i class="bi bi-instagram text-danger"></i></a>
+     <a href="">  <i class="bi bi-twitter text-dark"></i></a>
+       <a href=""><i class="bi bi-linkedin text-info"></i></a>
+      <a href=""> <i class="bi bi-whatsapp text-success"></i></a>
+
+
+        
+        <h6>Reach Us</h6>
+        <a href="" class="text-decoration-none">Rajkot Morbi Road,Rajkog 360003 Gujarat, India</a>
+        <a href="" class="text-decoration-none">+91 281723456</a>
+        <a href="" class="text-decoration-none">Info@marwadiuniversity.ac.in</a>
+        <a href="" class="text-decoration-none">+918980030090</a> <br>
+
+        <h6>Download</h6>
+         <div><img src="image/google-play-store-8-1-73-apk.png" alt="" class="w-50"></div>
+         <div><img src="image/app-store.png" alt="" class="w-50 mt-2"></div>
+      </div>
+      <div>
+        
+      </div>
+      <div></div>
+    </div>
+
+    <div class="footer d-flex bg-secondary mt-3">
+       <p class="mt-2 ">© Copyright Marwadi University. All Rights Reserved, 2025</p>
+       <div class="mx-auto mt-2">
+       <a href="" class="text-decoration-none text-dark ">Privacy Policy </a>
+       <a href="" class="text-decoration-none text-dark ">| Terms & Conditions</a>
+       <a href="" class="text-decoration-none text-dark "> | Sitemap</a>
+</div>
+    </div>
+</body>
+</html>
